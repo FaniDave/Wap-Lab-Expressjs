@@ -1,0 +1,16 @@
+POST http://localhost:3000/product/product-add
+Content-Type: application/json
+
+{
+    "title": "HP",
+    "price": 5000,
+    "description": "Good"
+}
+
+
+### 
+
+GET http://localhost:3000/user/user-save 
+Content-Type: application/x-www-form-urlencoded 
+
+http://localhost:3000/user/user-save?name=faniel&id=123
